@@ -18,5 +18,17 @@
 @import 'bootstrap';
 
 h1, h2, h3 {
-    font-family: 'Open Sans', sans-serif;
+   font-family: 'Open Sans', sans-serif;
+}
+
+body, .navbar {
+  background: #ffb347;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(left, #ffcc33, #ffb347);
+  background: -moz-linear-gradient(left, #ffcc33, #ffb347);
+  background: -o-linear-gradient(left, #ffcc33, #ffb347);
+  background: linear-gradient(to right, #ffcc33, #ffb347);  /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.navbar {
+  border: none;
 }
