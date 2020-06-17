@@ -17,6 +17,7 @@
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
 
+// Typography Styles
 h1 {
   font-family: "Indie Flower", cursive;
   font-size: 80px;
@@ -26,6 +27,7 @@ h2, h3 {
    font-family: 'Raleway', sans-serif;
 }
 
+// Backgroud Gradient
 .navbar, .home-callout {
   // Gradient provided by unknown at uiGradients.com
   background: #ffb347;  /* fallback for old browsers */
@@ -39,29 +41,29 @@ h2, h3 {
   border: none;
 }
 
+// NavBar Style
 .navbar-default .navbar-brand {
   color: black;
   font-family: "Indie Flower", cursive;
   font-size: 30px;
   font-weight: bold;
+  &:hover {
+    color: black;
+    opacity: 0.60;
+  }
 }
 
 .navbar-default .navbar-nav > li > a {
   color: black;
   font-family: "Raleway", sans-serif;
   font-size: 20px;
+  &:hover {
+    color: black;
+    opacity: 0.60;
+  }
 }
 
-.navbar-default .navbar-brand:hover {
-  color: black;
-  opacity: 0.60;
-}
-
-.navbar-default .navbar-nav > li > a:hover {
-  color: black;
-  opacity: 0.60;
-}
-
+// Margin adjustment for background
 .home-callout {
   margin-top: -20px;
   padding-top: 50px;
