@@ -20,12 +20,15 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a href="/" class="navbar-brand"><i class="fa fa-gift"></i> FARELO.</a>
+          <%= link_to "/", class: "navbar-brand" do %>
+            <i class="fa fa-gift"></i>
+            FARELO.
+          <% end %>
         </div>
       
         <div class="collapse navbar-collapse" id="main-nav-collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="/about">Quem somos</a></li>
+            <li><%= link_to "Quem Somos", "/about" %></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div>
