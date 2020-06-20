@@ -27,16 +27,22 @@ h1 {
 
 h2, h3 {
    font-family: 'Raleway', sans-serif;
+   font-size: 30px;
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
 }
 
 // Backgroud Gradient
 .navbar, .home-callout {
   // Gradient provided by unknown at uiGradients.com
-  background: #ffb347;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(left, #ffcc33, #ffb347);
-  background: -moz-linear-gradient(left, #ffcc33, #ffb347);
-  background: -o-linear-gradient(left, #ffcc33, #ffb347);
-  background: linear-gradient(to right, #ffcc33, #ffb347);  /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #FFEFBA;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(left, #FFFFFF, #FFEFBA);
+  background: -moz-linear-gradient(left, #FFFFFF, #FFEFBA);
+  background: -o-linear-gradient(left, #FFFFFF, #FFEFBA);
+  background: linear-gradient(to right, #FFFFFF, #FFEFBA);  /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .navbar {
@@ -48,7 +54,7 @@ h2, h3 {
   color: black;
   font-family: "Indie Flower", cursive;
   font-size: 30px;
-  font-weight: bold;
+  font-weight: 800;
   &:hover {
     color: black;
     opacity: 0.60;
@@ -65,7 +71,19 @@ h2, h3 {
   }
 }
 
-// Margin adjustment for background
+.navbar-default .navbar-toogle .icon-bar {
+  background-color: white;
+}
+
+.navbar-default .navbar-toogle {
+  border: 2px solid white;
+  &:hover, &:focus {
+    background-color: #FFEFBA;
+    opacity: 0.60;
+    }
+  }
+
+// Home Page Styles
 .home-callout {
   margin-top: -20px;
   padding-top: 50px;
